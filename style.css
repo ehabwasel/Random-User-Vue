@@ -1,51 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h1,h3,h4{
-    margin-bottom: 1rem;
+h1,
+h3,
+h4 {
+  margin-bottom: 1rem;
 }
-#app{
-    width: 400px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+#app {
+  width: 400px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-button{
-    cursor: pointer;
-    display: inline-block;
-    background-color: #333;
-    color: white;
-    font-size: 18px;
-    border: 0;
-    padding: 1rem 1.5rem;
+button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  padding: 1rem 1.5rem;
 }
-button:focus{
-    outline: none;
+button:focus {
+  outline: none;
 }
-button:hover{
-    scale: 0.98;
+button:hover {
+  scale: 0.98;
 }
-img{
-    border-radius: 50%;
-    border:5px #333 solid;
-    margin-bottom: 1rem;
-
+img {
+  border-radius: 50%;
+  border: 5px #333 solid;
+  margin-bottom: 1rem;
 }
-.male{
-    border-color: slateblue;
-    background-color: steelblue;
+.male {
+  border-color: slateblue;
+  background-color: steelblue;
 }
-.female{
-    border-color: pink;
-    background-color: pink;
-    color: #333;
+.female {
+  border-color: pink;
+  background-color: pink;
+  color: #333;
 }
